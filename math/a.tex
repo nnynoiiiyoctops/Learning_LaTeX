@@ -1,0 +1,23 @@
+\documentclass[a4paper, oneside]{article}
+% Подключение пакетов
+\usepackage[utf8]{inputenc}                       % Изменение кодировки ан UTF8 и как следствие поддержка кириллицы
+\usepackage[russian]{babel}                       % Основноый язык - русский, библиотека для проверки орфографии и корректных переносов
+\usepackage{fontspec}                             % Пакет для работы с системными шрифтами
+\usepackage[paperheight=297mm,  paperwidth=210mm,       top=20mm,       bottom=15mm,    left=20mm,
+        right=10mm]{geometry}                     % Параметры страницы
+\usepackage{amsmath}                              % Мат формулы
+\usepackage{graphicx}                             % Пакет для вставки изображений 
+\usepackage{caption}                              % Текст справа от изображения
+\usepackage{wrapfig}                              % Для wrapfigure, чтобы можно было обтекаемо от изображения писать
+\setmainfont{Times New Roman}
+
+%Директория для поиска файлов изображений
+%\graphicspath{./}
+% Установка межстрочного интервала 1.5
+\renewcommand{\baselinestretch}{1.5}
+
+\begin{document}
+
+    \fontsize{14pt}{14pt}\selectfont  Текст для теста
+
+\end{document}
